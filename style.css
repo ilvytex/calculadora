@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap");
+.wrapper {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+  gap: 8px;
+}
+
+.screen {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #146080;
+  min-height: 85px;
+  padding: 10px;
+  margin: 8px 0 8px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.screen .previous {
+  font-size: 1.5rem;
+  color: #d9efff;
+  font-weight: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.screen .current {
+  font-size: 2rem;
+  color: #d9efff;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.calc_btn_row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  gap: 4px;
+}
+
+.calc_btn {
+  background-color: #c9e8ff;
+  color: #3fa9fc;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none;
+  height: 70px;
+  flex-basis: 24.5%;
+  cursor: pointer;
+}
+
+.calc_btn:hover {
+  background-color: #ebebeb;
+}
+
+.calc_btn:active {
+  background-color: #bbbcbe;
+}
+
+.calc_btn:last-child {
+  background-color: #d9efff;
+  color: #3fa9fc;
+}
+
+.calc_btn:last-child:hover {
+  background-color: #c9e8ff;
+}
+
+.double {
+  flex-basis: 49.75%;
+}
